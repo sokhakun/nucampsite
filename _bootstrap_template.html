@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+    <title>Document</title>
+</head>
+<body>
+    <!--Code Test Area-->
+    <div class="container">
+        <div class="cart">
+            curated
+            <div class="cart-body">
+                <form>
+                    <div class="row">
+                        Number of Campers 
+                        <select name="numOfCampers" id="numOfCampers">
+                            <option>Select...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                        </select>
+
+
+                    </div>
+                    <div class="row">
+                            Date
+                            <input type="date" />
+                    </div>
+                    
+                    <div class="row">
+                        <button type="button" name="search">Search</button>
+                    </div>  
+                </form>
+            </div>
+        </div>
+    </div>
+        
+    
+        
+    
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
