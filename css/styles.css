@@ -40,3 +40,9 @@ header h2 {
     font-size: small;
     background-color: cornsilk;
 }
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
