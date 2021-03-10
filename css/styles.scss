@@ -4,6 +4,8 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
+$color-white: white;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -37,7 +39,7 @@ header  {
     padding: 30px;
    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
 
-    color: white;
+    color: $color-white;
 }
 
 .row-content {
@@ -72,4 +74,19 @@ a, a:hover {
     right: 0;
     bottom: 0;
     z-index: 100;
+}
+
+
+#reserveCampsites {
+    .modal-header {
+        background-color: $color-teal;
+        color: $color-white;
+    }
+}
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: $color-white;
+    }
+
 }

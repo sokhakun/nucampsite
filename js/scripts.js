@@ -31,4 +31,13 @@ $(function(){
             $("#carouselButton").children("i").addClass("fa-pause");
         }
     });
+
+    /* Reserve Campsite and Login function */
+    $("#reserveButton").click(function(){
+        $("#reserveCampsites").modal("show") ;
+    });
+
+    $("#loginButton").click(function(){
+        $("#loginModal").modal("show");
+    });
 });
