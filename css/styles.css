@@ -9,16 +9,20 @@ h2 {
 
 /* only apply to h2 inside <header> element */
 header h2 {
-  color: #CEC8FF; }
+  color: #e5e4ec; }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background-image: linear-gradient(#e5e4ec, white);
   padding: 20px 0; }
 
 .jumbotron {
   margin: 0px;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  /*    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+*/
+  background-image: url(../img/unsplash-camping1.jpg);
+  background-position: center center;
+  background-size: cover;
   color: white; }
 
 .row-content {
@@ -50,7 +54,7 @@ a, a:hover {
   z-index: 100; }
 
 #reserveCampsites .modal-header {
-  background-color: #17A2B8;
+  background-color: #008080;
   color: white; }
 
 #loginModal .modal-header {

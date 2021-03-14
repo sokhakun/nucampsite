@@ -1,10 +1,10 @@
 $color-primary: #3046C5;
 $color-secondary: #5637dd;
-$color-pale: #CEC8FF;
+$color-pale: #e5e4ec;
 $color-mid: #901CAD;
-$color-dark: #60106b;
-$color-black-transparent: rgba(0, 0, 0, 0.5);
-$color-teal: #17A2B8;
+$color-dark: #60106B;
+$color-black-transparent: rgba(0,0,0,0.5);
+$color-teal:#008080;
 $color-white: white;
 
 $body-font: "Open Sans", sans-serif;
@@ -37,8 +37,11 @@ header  {
 .jumbotron {
     margin: 0px;
     padding: 30px;
-   background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
-
+/*    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+*/
+    background-image: url(../img/unsplash-camping1.jpg);
+    background-position: center center;
+    background-size: cover;
     color: $color-white;
 }
 
